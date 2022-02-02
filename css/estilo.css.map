@@ -6,7 +6,8 @@
         "../scss/_home.scss",
         "../scss/_contacto.scss",
         "../scss/_estudio.scss",
-        "../scss/_news.scss"
+        "../scss/_news.scss",
+        "../scss/_mediaquery.scss"
     ],
     "names": [],
     "file": "estilo.css"
