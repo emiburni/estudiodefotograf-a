@@ -10,7 +10,7 @@ header{
     margin-top: 30px;
     font-family: 'Abril Fatface', cursive;
     .imgh{
-        padding-right: 10px;
+        padding: 10px;
     }
     p{
         margin-left: 10px;
@@ -24,8 +24,8 @@ header{
         margin-left: 200px;
         margin-top: 100px;
     }
-    p{
-        font-family: 'Abril Fatface', cursive;
+    ul{
+        font-family: 'Gudea', sans-serif;
         margin-top: 70px;
         margin-left: 50px;
         margin-right: 200px;
@@ -38,10 +38,10 @@ header{
     position: relative;
     display: inline-flex;
     text-align: center;
-    .texto-encima{
+    .texto-encima-contacto{
         position: absolute;
         top: 260px;
-        left: 380px;
+        left: 275px;
         font-family: 'Abril Fatface', cursive;
         font-size: 50px;
         color: white;
@@ -55,10 +55,10 @@ header{
         margin-left: 100px;
         margin-bottom: 100px;
     }
-    .texto-encima-estudio{
+    .texto-encima-estudio-link{
         position: absolute;
         top: 600px;
-        left: 980px;
+        left: 880px;
         font-family: 'Abril Fatface', cursive;
         font-size: 50px;
         color: white;
@@ -68,10 +68,10 @@ header{
             opacity: 100%;
         }
     }
-    .texto-encima-news{
+    .texto-encima-news-link{
         position: absolute;
         top: 600px;
-        left: 1600px;
+        left: 1500px;
         font-family: 'Abril Fatface', cursive;
         font-size: 50px;
         color: white;
@@ -83,6 +83,8 @@ header{
     }
 }
 .footer{
+    width: 100%;
+    height: 20%;
     background-color: #47423c;
     font-family: 'Abril Fatface', cursive;
     margin-top: 50px;
